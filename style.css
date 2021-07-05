@@ -5,26 +5,39 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .text-color{
     color: tomato;
 }
-section{
+.flex-section{
     display: flex;
    
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 4%;
+}
+
+.half-width p{
+    margin-bottom: 5%;
+    text-align: justify;
+    padding-right: 4%;
 }
 .half-width img{
     margin-top: 4%;
-    width: 70%;
+    width: 80%;
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(tomato,red);
+    background: rgb(237,82,10);
+    background: linear-gradient(90deg, rgba(237,82,10,1) 42%, rgba(218,11,11,0.8743872549019608) 100%);
     padding: 10px 30px;
     color: white;
+    font-weight: bold;
+    font-size: large;
     border-radius: 10px;
 }
 .top-section{
@@ -37,5 +50,39 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: bottom;
     margin-bottom: 100px;
+}
+.exeperience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 50px;
+}
+
+.colour{
+    color: orange;
+}
+.exp-itm{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 40px;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 50px;
+    
+}
+#full-exp{
+    border-left: 7px solid transparent;
+    border-image: linear-gradient(tomato, red);
+    border-image-slice: 1;
+
+}
+#baby-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
